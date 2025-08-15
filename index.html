@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PassWorld</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="/IMG/Logo.svg" alt="Logo">
+  </header>
+
+  <div class="text">
+    <h1>Password Generator</h1>
+    <p>A powerful strong password generator to protect your online accounts.</p>
+  </div>
+
+  <main>
+    <div class="container">
+      <div class="container-type">
+        <p class="text-content">Choose your password type</p>
+        <div class="type">
+          <ul>
+            <li class="option"><img src="/IMG/Random_Icon.svg" alt="">Random</li>
+            <li class="option"><img src="/IMG/pin_icon.svg" alt="">PIN</li>
+          </ul>
+          </div>
+       <div class="line"></div>
+      </div>
+      <div> <p class="text-content">Customize</p></div>
+      <div class="content">
+        <div class="content-main">
+          <input class="range" type="range">
+          <input class="number" type="number">
+          <div class="check-list">
+            <label class="checkbox c1" for="AA">
+              <input type="checkbox" name="AA" id="AA">
+              AA
+            </label>
+            <label class="checkbox c2"  for="aa">
+              <input type="checkbox" name="aa" id="aa">
+              aa
+            </label>
+            <label class="checkbox c3"  for="numbers">
+              <input type="checkbox" name="numbers" id="numbers">
+              Numbers
+            </label>
+            <label class="checkbox c4" for="symbols">
+              <input type="checkbox" name="symbols" id="symbols">
+              Symbols
+            </label>
+          </div>
+
+        </div>
+      </div>
+
+      <section class="result">
+        <input type="text" >
+        <button><img class="again" src="/IMG/again_icon.svg" alt=""></button>
+      </section>
+
+      <div class="copy-home">
+        <button class="copy">Copy Password</button>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
