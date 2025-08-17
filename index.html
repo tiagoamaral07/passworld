@@ -23,8 +23,8 @@
         <p class="text-content">Choose your password type</p>
         <div class="type">
           <ul>
-            <li class="option"><img src="IMG/Random_Icon.svg" alt="">Random</li>
-            <li class="option"><img src="IMG/pin_icon.svg" alt="">PIN</li>
+            <li class="option option-ativo" id="random"><img src="IMG/Random_Icon.svg" alt="">Random</li>
+            <li class="option" id="pin"><img src="IMG/pin_icon.svg" alt="">PIN</li>
           </ul>
           </div>
        <div class="line"></div>
@@ -32,19 +32,19 @@
       <div> <p class="text-content">Customize</p></div>
       <div class="content">
         <div class="content-main">
-          <input class="range" type="range">
-          <input class="number" type="number">
+          <input class="range" type="range" value="4">
+          <input class="number" type="number" value="4" min="1" max="30">
           <div class="check-list">
             <label class="checkbox c1" for="AA">
-              <input type="checkbox" name="AA" id="AA">
+              <input type="checkbox" name="AA" id="AA" checked>
               AA
             </label>
             <label class="checkbox c2"  for="aa">
-              <input type="checkbox" name="aa" id="aa">
+              <input type="checkbox" name="aa" id="aa" checked>
               aa
             </label>
             <label class="checkbox c3"  for="number">
-              <input type="checkbox" name="number" id="number">
+              <input type="checkbox" name="number" id="number" class="c3">
               Number
             </label>
             <label class="checkbox c4" for="symbol">
@@ -62,11 +62,11 @@
       </section>
 
       <div class="copy-home">
-        <button class="copy">Copy Password</button>
+        <button class="copy generate-btn">Copy Password</button>
       </div>
-
-    </div>
+   </div>
   </main>
 
 </body>
+<script src="script.js">  </script>
 </html>

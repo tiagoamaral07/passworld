@@ -118,14 +118,19 @@ header img{
   justify-content: center;
   gap: 10px;
   padding: 8px 32px;
+   border: 1px solid #f6f6f6; 
   background-color: #F6F6F6;
   border-radius: 4px;
   cursor: pointer;
-  transition: 0.2s; 
+  transition: 0.3s; 
   font-size: 1rem; 
  }
 
  .option:hover{
+  border: 1px solid #0B47A1;
+ }
+
+ .option-ativo{
   border: 1px solid #0B47A1;
   background-color: #D9E5F7;
  }
