@@ -56,7 +56,7 @@ header img{
  @media (max-width: 768px){
   .text{
   max-height: 300px;
-  margin-top: 16px;
+  margin-top: 32px;
   gap: 20px;
   margin-bottom: 32px;
 }
@@ -147,7 +147,7 @@ header img{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 40px;
+  margin: 0 24px;
   margin-bottom: 32px;
 }
 
@@ -253,8 +253,12 @@ header img{
    grid-template-columns: 4fr 1fr 1fr;
  }
 
-.range, .checkbox input[type="checkbox"] {
+.checkbox input[type="checkbox"] {
   margin-left: -8px;
+}
+
+.range{
+  margin-left: -20px;
 }
 }
 
