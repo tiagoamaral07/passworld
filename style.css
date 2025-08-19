@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 
 ul{
@@ -203,6 +204,8 @@ header img{
   color: #6A6A6A;
   text-align: center;
   padding: 8px;
+  user-select: none;
+  pointer-events: none;
   
 }
 
@@ -274,7 +277,7 @@ header img{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   margin-bottom: 30px;
 }
 
@@ -287,15 +290,22 @@ header img{
   text-align: center;
   border: 1px solid #0B47A1;
   border-radius: 4px;
+  user-select: none;
+  pointer-events: none;
 }
 
 .result button{
-  height: 40px;
-  width: 40px;
+  height: 36px;
+  width: 36px;
   padding: 5px 5px;
   border: 1px solid #0B47A1;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.again{
+  height: 16px;
+  width: 16px;
 }
 
 .result button:hover{
